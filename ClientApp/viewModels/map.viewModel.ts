@@ -8,8 +8,6 @@ import Graphic from "@arcgis/core/Graphic.js";
 import Sketch from "@arcgis/core/widgets/Sketch.js";
 import LayerList from "@arcgis/core/widgets/LayerList.js";
 import WKT from "ol/format/WKT.js";
-import { Field } from "../models/Field.js";
-import { WKObject } from "../models/WKObject.js";
 import { Collection } from "ol";
 
 let scene: EsriScene;

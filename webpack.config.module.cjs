@@ -48,6 +48,10 @@ module.exports = {
                     },
                 }]
             },
+                        {
+                test: /calcite.css$/i,
+                use: ['style-loader','css-loader'],
+            },
             // For webpack v5
             {
                 test: /\.(png|jpe?g|gif)$/i,
